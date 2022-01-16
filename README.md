@@ -11,19 +11,18 @@ A home is often the largest and most expensive purchase a person makes in his or
 
 Zillow is a popular estimator for house evaluation available online.  Zillow's Zestimate allows the homebuyers to search for a home that satisfies their location, area, budget, etc.
 
-In this project we want to predict the property tax assessed values ('taxvaluedollarcnt') for single family properties. The focus will be the single unit properties that had a transaction during 2017.
+In this project we want to uncover what the drivers of the error are in Zillow's Zestimate. The focus will be the single unit properties that had a transaction during 2017.
 
 
 ### Initial Questions
 
-- What is the relationship between bedroom count and taxvaluedollarcount?
-    - Is it a linear relationship or is there no relationship?
-    
-- What is the relationship between bathroom count and taxvaluedollarcount?
-    - Is it a linear relationship or is there no relationship?
+- Is there a relationship between logerror and longitude and latitude?
 
-- What is the relationship between square feet and taxvaluedollarcount?
-    - Is it a linear relationship or is there no relationship?
+- What is the relationship between What is the relationship between bedroom count and logerror?
+    
+- What is the relationship between square feet and logerror?
+
+- How different are the logerrors for the three counties in the dataset?
 
 
 
@@ -69,3 +68,7 @@ Plan - Acquire - Prepare - Explore - Model - Deliver
     - Establish baseline
     - Ensure models are tested on appropriate validate and test datasets
     - Determine best performing model and test on test dataset# clustering-project
+- Delivery
+    - Final Report in Jupyter Notebook
+    - README with project details
+    - Python modules with acquire and prepare functions
