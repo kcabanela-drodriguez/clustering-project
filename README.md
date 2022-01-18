@@ -31,15 +31,23 @@ In this project we want to uncover what the drivers of the error are in Zillow's
 
 | Variable            |     Description  |     
 | ----------------    | ------------------ |
-|bedroom_cnt          | Number of bedrooms in each home |
-|bathroom_cnt         | Number of bathrooms in each home. Can be half bathrooms and there will not be rows with 0 bathrooms |
-|pool_cnt             | Number of pools in each home |
-|nbr_stories          | Number of stories in each home |
-|assessed_tax_value   | The target variable. Assessed property tax value of each home |
-|year_built           | The year the home was built  |
-|fips                 | Coding used to identify the county in which the home is located in |
-|comb_sq_ft           | An amalgamation of three different columns from the Zillow database. This column is a sum of columns: basementsqft, garagetotalsqft, and calculatedfinishedsquarefeet |
-|location             | A mapped fips column reflecting the name of the county of the fips code represents |
+|bathroomcnt          | Number of bathrooms in each home.  Can be half bathrooms and there will not be rows with 0 bathrooms |
+|bedroomcnt         | Number of bedrooms in each home |
+|calculatedfinishedsquarefeet             | Square feet of property |
+|latitude          | Latitude of home location |
+|longitude   | Longitude of home location |
+|lotsizesquarefeet | Square feet total of home lot |
+|rawcensustractandblock           | Raw census tract and block id combined  |
+|regionidzip                 | Home zip code |
+|roomcnt           | Total number of rooms in the home |
+|yearbuilt             | The year the home was built |
+|structuretaxvaluedollarcnt          | The assessed value of the home |
+|taxvaluedollarcnt          | Tax value assessed |
+|landtaxvaluedollarcnt          | Tax value of land where home is located |
+|taxamount          | Tax amount paid on the property |
+|censustractandblock          | Census tract and block id combined |
+|logerror          | Target variable |
+|county          | County where home is located |
 
 
 
